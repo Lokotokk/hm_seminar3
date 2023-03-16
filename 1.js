@@ -10,8 +10,8 @@
 // Примечания: Пользователь всегда вводит корректное число.
 // Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь"
 
-celsius = Number.parseFloat(prompt('Введите температуру в градусах Цельсия: '));
-farenheit = Temperature(celsius).toFixed(1);
+const celsius = Number.parseFloat(prompt('Введите температуру в градусах Цельсия: '));
+const farenheit = Temperature(celsius).toFixed(1);
 alert(`Температура в градусах по Фаренгейту: ${farenheit}`)
 
 function Temperature(c) {
